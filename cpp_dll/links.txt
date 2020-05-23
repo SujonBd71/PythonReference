@@ -1,0 +1,4 @@
+https://docs.python.org/3.7/library/ctypes.html
+https://stackoverflow.com/questions/21011620/c-dll-to-python-callback
+http://wolfprojects.altervista.org/articles/dll-in-c-for-python/
+
