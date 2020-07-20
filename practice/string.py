@@ -35,12 +35,19 @@ def mathmatics():
     string = '123456'
     print( string.isnumeric()) 
 
+def IntListToString():
+    l = [1, 23, 0, -1]
+    s = [str(n) for n in l]
+    print(s)
+    ss = ";".join(s)
+
+    print(ss)
 
 
 # split_lines()
 # stripping()
 
 # replace()
-ASCI_Value()
-
+#ASCI_Value()
+IntListToString()
 
