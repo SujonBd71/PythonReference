@@ -48,6 +48,15 @@ def test_iteration():
 def multi_map():
     pass
 
+def CountFreq():
+    l = {}
+    l["a"] = l.get("a", 0) + 1
+    print (l["a"])
+    l["a"] = l.get("a", 0) + 1
+    print (l["a"])
+
+
+
 def test_append():
     dic = defaultdict(list)
     dic["x"].append(1)
