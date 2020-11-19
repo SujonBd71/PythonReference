@@ -3,6 +3,8 @@ import bisect
 def basic():
     nums = [10,20,30,30,40,40,50]
     l = bisect.bisect_left(nums, 35)
+    
+#     bisect is alias for bisect right
     r = bisect.bisect_right(nums, 30)
     print(l)
     print(r)
