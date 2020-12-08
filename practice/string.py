@@ -6,6 +6,9 @@ def split_lines():
         print(l)
     
 def stripping():
+    s = "          ABC         "
+    s = s.strip()
+    print(s)
     nums= "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
     lines = nums.splitlines()
     for l in lines:
